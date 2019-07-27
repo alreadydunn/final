@@ -1,0 +1,142 @@
+.images {
+	margin: 0 auto;
+	width: 800px;
+	text-align: center;
+}
+
+.text {
+	width: 500px;
+	height: 80px;
+	background-color: LightBlue;
+	margin: 50px auto;
+	border: 1px solid black;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+body {
+	height: 3000px;
+}
+
+.fixed {
+	height: 2000px;
+}
+
+.link {
+	width: 500px;
+	height: 50px;
+	background-color: LightBlue;
+	margin: 50px auto;
+	border: 1px solid black;
+	text-align: center;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: LightGrey;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: DarkGrey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: DarkGrey;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: Purple;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+.important {
+	margin: 50px 50px;
+	background-color: LightGrey;
+	height: 250px;
+	width: 300px;
+	float: right;
+}
+
+.connected {
+	clear: both;
+	margin: 300px 50px;
+	background-color: LightGrey;
+	height: 250px;
+	width: 500px;
+	float: left;
+}
+
+.connected a{
+	padding-left: 20px;
+}
+
+h2 {
+	color: DarkGrey;
+	padding-left: 20px;
+}
+
+p a{
+	padding-left: 20px;
+}
+
+#back {
+	float: left;
+}
+
+.explanation {
+	margin: 30px 30px;
+	background-color: LightBlue;
+	border: 1px solid black;
+	width: 500px;
+	height: 220px;
+	float: left;
+}
+
+
+
+
